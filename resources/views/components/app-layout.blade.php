@@ -24,7 +24,7 @@
             {{ config('app.name') }}
         </a>
 
-        <main class="mt-16 text-xl">
+        <main class="mt-16">
             {{ $slot }}
         </main>
     </div>
