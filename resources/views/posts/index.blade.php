@@ -13,7 +13,7 @@
                      <div class="text-xl">
                          {{ $post->teaser }}
                      </div>
-                     
+                     <x-post-meta :post="$post" />
                  </article>
              @endforeach
          @else
