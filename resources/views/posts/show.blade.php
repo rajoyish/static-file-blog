@@ -4,8 +4,6 @@
         <div class="text-xl">
             {{ $post->contents }}
         </div>
-        <div class="mt-10 text-slate-400">
-            {{ $post->author }} / {{ $post->date->toDateString() }}
-        </div>
+        <x-post-meta :post="$post" />
     </article>
 </x-app-layout>
